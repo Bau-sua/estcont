@@ -2,40 +2,38 @@
 const pasos = [
   {
     numero: "01",
-    titulo: "Consultá gratis",
-    descripcion: "Nos contás qué necesitás por WhatsApp o videollamada. Sin compromiso, te orientamos sin cargo.",
+    titulo: "Analizamos",
+    descripcion: "Revisamos tu situación fiscal y la realidad de tu negocio. Sin recetas genéricas, cada caso es único.",
   },
   {
     numero: "02",
-    titulo: "Analizamos tu caso",
-    descripcion: "Revisamos tu situación fiscal y te armamos un plan a medida. Te pasamos presupuesto claro y fijo.",
+    titulo: "Planificamos",
+    descripcion: "Armamos una estrategia a medida: impositiva, contable y de negocio. Anticipamos escenarios para evitar sorpresas.",
   },
   {
     numero: "03",
-    titulo: "Resolvemos",
-    descripcion: "Nos ocupamos de todo: altas, declaraciones juradas, sueldos. Vos solo seguís con tu negocio.",
+    titulo: "Acompañamos",
+    descripcion: "Seguimiento continuo, informes periódicos y asesoramiento permanente. No solo cumplimos, te ayudamos a crecer.",
   },
 ];
 ---
 
-<section class="bg-cream">
-  <div class="px-6 max-w-5xl mx-auto py-24">
+<section class="bg-bg-darkest px-6 max-w-5xl mx-auto py-24">
   <span class="text-brand font-medium text-sm tracking-widest uppercase">
     Cómo trabajamos
   </span>
-  <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900 mt-3 mb-16">
-    Tres pasos, cero estrés.
+  <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-white mt-3 mb-16">
+    Un proceso claro,<br />resultados reales.
   </h2>
   <div class="grid sm:grid-cols-3 gap-8">
     {
       pasos.map((p) => (
         <div>
-          <span class="text-5xl font-bold text-brand/20 tracking-tight">{p.numero}</span>
-          <h3 class="text-xl font-semibold text-gray-900 mt-4 mb-3">{p.titulo}</h3>
-          <p class="text-muted leading-relaxed">{p.descripcion}</p>
+          <span class="text-5xl font-bold text-brand/15 tracking-tight">{p.numero}</span>
+          <h3 class="text-xl font-semibold text-white mt-4 mb-3">{p.titulo}</h3>
+          <p class="text-text-muted leading-relaxed">{p.descripcion}</p>
         </div>
       ))
     }
-  </div>
   </div>
 </section>

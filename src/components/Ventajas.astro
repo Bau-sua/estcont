@@ -1,34 +1,39 @@
 ---
 const ventajas = [
   {
-    titulo: "100% digital",
-    descripcion: "Subís tus comprobantes por WhatsApp o mail. Nosotros hacemos el resto. Cero papeles, cero visitas al estudio.",
+    titulo: "Cercanía y proactividad",
+    descripcion: "Trabajamos de forma cercana y proactiva. No solo cumplimos con las obligaciones: nos anticipamos a los escenarios fiscales.",
   },
   {
-    titulo: "Atención real",
-    descripcion: "Tenés un contador asignado que conoce tu caso. Respondemos en el día, sin bots ni menús automáticos.",
+    titulo: "Mirada estratégica",
+    descripcion: "Transformamos la información contable en análisis real: rentabilidad, costos, flujo de fondos. Información para decidir, no solo para cumplir.",
   },
   {
-    titulo: "Precio transparente",
-    descripcion: "Cuota fija mensual sin sorpresas. Sabés cuánto pagás desde el día uno, sin costos ocultos.",
+    titulo: "Acompañamiento real",
+    descripcion: "Desde el inicio del proyecto hasta el crecimiento. Servicio societario, impositivo y contable integral con seguimiento personalizado.",
   },
 ];
 ---
 
-<section class="bg-white px-6 py-24">
+<section class="bg-bg-dark px-6 py-24">
   <div class="max-w-5xl mx-auto">
     <span class="text-brand font-medium text-sm tracking-widest uppercase">
-      Por qué Numeria
+      Por qué IS
     </span>
-    <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900 mt-3 mb-16">
-      La contabilidad puede ser simple.
+    <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-white mt-3 mb-6">
+      Más que contabilidad.
     </h2>
+    <p class="text-text-muted text-lg mb-16 max-w-2xl leading-relaxed">
+      Creemos que la contabilidad no termina en impuestos y balances. 
+      Acompañamos a nuestros clientes con una mirada estratégica que ayuda 
+      a ordenar la gestión y anticiparse a los escenarios.
+    </p>
     <div class="grid sm:grid-cols-3 gap-10">
       {
         ventajas.map((v) => (
           <div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-3">{v.titulo}</h3>
-            <p class="text-muted leading-relaxed">{v.descripcion}</p>
+            <h3 class="text-xl font-semibold text-white mb-3">{v.titulo}</h3>
+            <p class="text-text-muted leading-relaxed">{v.descripcion}</p>
           </div>
         ))
       }

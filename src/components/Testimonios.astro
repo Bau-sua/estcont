@@ -1,21 +1,21 @@
 ---
 const testimonios = [
   {
-    cita: "Desde que trabajamos con Numeria nos despreocupamos de la contabilidad. Responden siempre rápido y saben lo que hacen.",
+    cita: "Cambiamos de estudio contable porque necesitábamos algo más que liquidar impuestos. Con IS transformamos los números en información para tomar decisiones reales sobre el negocio.",
     autor: "Mariana López",
     empresa: "Urbana Indumentaria",
   },
   {
-    cita: "Cambié de contador tres veces hasta que los encontré. Cuota fija, todo digital, y me avisan antes de cada vencimiento.",
+    cita: "Nos acompañaron desde la constitución de la sociedad hasta el día a día impositivo. Siempre un paso adelante, avisándonos antes de cada vencimiento y ayudándonos a planificar.",
     autor: "Gastón Ramírez",
     empresa: "Ramírez Instalaciones",
   },
 ];
 ---
 
-<section class="bg-brand-dark px-6 py-24">
+<section class="bg-bg-dark px-6 py-24">
   <div class="max-w-5xl mx-auto">
-    <span class="text-cream/60 font-medium text-sm tracking-widest uppercase">
+    <span class="text-brand font-medium text-sm tracking-widest uppercase">
       Testimonios
     </span>
     <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-white mt-3 mb-16">
@@ -24,13 +24,13 @@ const testimonios = [
     <div class="grid sm:grid-cols-2 gap-8">
       {
         testimonios.map((t) => (
-          <blockquote class="border-l-2 border-accent pl-6">
-            <p class="text-lg text-cream leading-relaxed mb-5">
+          <blockquote class="border-l-2 border-brand pl-6">
+            <p class="text-lg text-white/80 leading-relaxed mb-5">
               &ldquo;{t.cita}&rdquo;
             </p>
             <footer>
               <cite class="not-italic text-white font-medium text-sm">{t.autor}</cite>
-              <span class="block text-cream/60 text-sm mt-0.5">{t.empresa}</span>
+              <span class="block text-text-muted text-sm mt-0.5">{t.empresa}</span>
             </footer>
           </blockquote>
         ))
