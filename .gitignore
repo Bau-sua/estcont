@@ -1,0 +1,14 @@
+# Local Pi runtime state
+.atl/
+
+# Astro generated
+.astro/
+
+# Pi Lens cache
+.pi-lens/cache/
+
+# Build output
+dist/
+
+# Dependencies
+node_modules/

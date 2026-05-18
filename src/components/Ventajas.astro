@@ -1,0 +1,37 @@
+---
+const ventajas = [
+  {
+    titulo: "100% digital",
+    descripcion: "Subís tus comprobantes por WhatsApp o mail. Nosotros hacemos el resto. Cero papeles, cero visitas al estudio.",
+  },
+  {
+    titulo: "Atención real",
+    descripcion: "Tenés un contador asignado que conoce tu caso. Respondemos en el día, sin bots ni menús automáticos.",
+  },
+  {
+    titulo: "Precio transparente",
+    descripcion: "Cuota fija mensual sin sorpresas. Sabés cuánto pagás desde el día uno, sin costos ocultos.",
+  },
+];
+---
+
+<section class="bg-gray-50 px-6 py-24">
+  <div class="max-w-5xl mx-auto">
+    <span class="text-teal-600 font-medium text-sm tracking-widest uppercase">
+      Por qué Numeria
+    </span>
+    <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900 mt-3 mb-16">
+      La contabilidad puede ser simple.
+    </h2>
+    <div class="grid sm:grid-cols-3 gap-10">
+      {
+        ventajas.map((v) => (
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">{v.titulo}</h3>
+            <p class="text-gray-500 leading-relaxed">{v.descripcion}</p>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>
