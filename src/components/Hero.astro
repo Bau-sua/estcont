@@ -1,17 +1,17 @@
 ---
 ---
 
-<section class="bg-bg-darkest">
+<section class="bg-white dark:bg-bg-darkest">
   <div class="min-h-[90vh] flex flex-col justify-center px-6 max-w-4xl mx-auto pt-20 pb-32">
     <span class="text-brand font-medium text-sm tracking-widest uppercase mb-6">
       IS Estudio Contable
     </span>
-    <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight tracking-tight text-white mb-8">
+    <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight tracking-tight text-gray-900 dark:text-white mb-8">
       No solo liquidamos<br />
       <span class="text-brand">impuestos.</span><br />
-      <span class="text-white">Analizamos tu negocio.</span>
+      <span class="text-gray-900 dark:text-white">Analizamos tu negocio.</span>
     </h1>
-    <p class="text-lg sm:text-xl text-text-muted max-w-xl mb-10 leading-relaxed">
+    <p class="text-lg sm:text-xl text-gray-500 dark:text-text-muted-dark max-w-xl mb-10 leading-relaxed">
       Transformamos la información contable en informes de negocio claros,
       que permiten entender, decidir y crecer. Asesoramiento para personas y empresas.
     </p>
@@ -24,10 +24,24 @@
       </a>
       <a
         href="#servicios"
-        class="inline-flex items-center justify-center px-8 py-4 border border-white/15 text-white font-medium rounded-xl hover:border-white/30 hover:bg-white/5 transition-colors text-lg"
+        class="inline-flex items-center justify-center px-8 py-4 border border-gray-200 dark:border-white/15 text-gray-700 dark:text-white font-medium rounded-xl hover:border-gray-300 dark:hover:border-white/30 hover:bg-gray-50 dark:hover:bg-white/5 transition-colors text-lg"
       >
         Qué ofrecemos
       </a>
     </div>
+
+    <!-- Theme Toggle -->
+    <button
+      id="theme-toggle"
+      aria-label="Cambiar tema"
+      class="absolute top-6 right-6 p-2.5 rounded-xl border border-gray-200 dark:border-white/15 bg-white dark:bg-bg-dark text-gray-500 dark:text-text-muted-dark hover:text-gray-900 dark:hover:text-white transition-colors"
+    >
+      <svg class="w-5 h-5 block dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+      </svg>
+      <svg class="w-5 h-5 hidden dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+      </svg>
+    </button>
   </div>
 </section>

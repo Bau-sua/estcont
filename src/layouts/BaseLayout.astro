@@ -10,7 +10,7 @@ const { title, description } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang="es" class="dark">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -18,7 +18,14 @@ const { title, description } = Astro.props;
     <meta name="description" content={description} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
-  <body class="bg-bg-darkest text-white antialiased font-sans">
+  <body class="bg-white dark:bg-bg-darkest text-gray-900 dark:text-white antialiased font-sans transition-colors">
     <slot />
+
+    <script>
+      const theme = () => document.documentElement.classList.toggle("dark");
+      document.addEventListener("DOMContentLoaded", () => {
+        document.getElementById("theme-toggle")?.addEventListener("click", theme);
+      });
+    </script>
   </body>
 </html>

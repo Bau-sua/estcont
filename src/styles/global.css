@@ -1,15 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bg-darkest: #0c1014;
-  --color-bg-dark: #1a1d22;
   --color-brand: #196d6f;
   --color-brand-light: #238f91;
-  --color-text-light: #ffffff;
-  --color-text-muted: #9ca3af;
+  --color-bg-darkest: #0c1014;
+  --color-bg-dark: #1a1d22;
+  --color-text-muted-dark: #9ca3af;
 }
 
 html {
   scroll-behavior: smooth;
-  background-color: var(--color-bg-darkest);
 }
