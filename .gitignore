@@ -10,5 +10,11 @@
 # Build output
 dist/
 
+# Wrangler local state
+.wrangler/
+
+# Pi Lens metrics
+.pi-lens/metrics-history.json
+
 # Dependencies
 node_modules/

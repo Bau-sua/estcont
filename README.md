@@ -42,13 +42,13 @@ Footer      → Email, teléfono, copyright
 
 ## ⚙️ Stack
 
-| Capa | Tecnología |
-|------|-----------|
-| Framework | Astro 5 (SSG, cero JS) |
-| Estilos | Tailwind CSS 4 |
-| Forms | Formspree o Cloudflare Worker |
-| Hosting | Cloudflare Pages (free tier) |
-| Dominio | Custom via Cloudflare DNS |
+| Capa      | Tecnología                    |
+| --------- | ----------------------------- |
+| Framework | Astro 5 (SSG, cero JS)        |
+| Estilos   | Tailwind CSS 4                |
+| Forms     | Formspree o Cloudflare Worker |
+| Hosting   | Cloudflare Pages (free tier)  |
+| Dominio   | Custom via Cloudflare DNS     |
 
 ## 🔁 Modelo de trabajo
 
@@ -63,6 +63,7 @@ gh repo fork Bau-sua/estcont --clone
 ```
 
 Y después customizá:
+
 - Colores en `src/styles/global.css`
 - Copy en cada componente
 - WhatsApp y datos de contacto
