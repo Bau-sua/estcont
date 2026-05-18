@@ -13,9 +13,9 @@ const testimonios = [
 ];
 ---
 
-<section class="bg-teal-900 px-6 py-24">
+<section class="bg-brand-dark px-6 py-24">
   <div class="max-w-5xl mx-auto">
-    <span class="text-teal-200 font-medium text-sm tracking-widest uppercase">
+    <span class="text-cream/60 font-medium text-sm tracking-widest uppercase">
       Testimonios
     </span>
     <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-white mt-3 mb-16">
@@ -24,13 +24,13 @@ const testimonios = [
     <div class="grid sm:grid-cols-2 gap-8">
       {
         testimonios.map((t) => (
-          <blockquote class="border-l-2 border-teal-500 pl-6">
-            <p class="text-lg text-teal-50 leading-relaxed mb-5">
+          <blockquote class="border-l-2 border-accent pl-6">
+            <p class="text-lg text-cream leading-relaxed mb-5">
               &ldquo;{t.cita}&rdquo;
             </p>
             <footer>
               <cite class="not-italic text-white font-medium text-sm">{t.autor}</cite>
-              <span class="block text-teal-300 text-sm mt-0.5">{t.empresa}</span>
+              <span class="block text-cream/60 text-sm mt-0.5">{t.empresa}</span>
             </footer>
           </blockquote>
         ))

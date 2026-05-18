@@ -1,0 +1,12 @@
+{
+  "active": 1,
+  "next_id": 2,
+  "windows": [
+    {
+      "id": 1,
+      "label": "estcont",
+      "root": "/home/itu/repositorios/estcont",
+      "plugin_state": {}
+    }
+  ]
+}
