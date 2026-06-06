@@ -2,11 +2,9 @@
 
 Landing page estática, minimalista y profesional para estudios contables. Construida con **Astro** y **Tailwind CSS**, deploy instantáneo en **Cloudflare Pages**.
 
-[![Astro](https://img.shields.io/badge/Astro-5.0-BC52EE?logo=astro)](https://astro.build)
+[![Astro](https://img.shields.io/badge/Astro-6.0-BC52EE?logo=astro)](https://astro.build)
 [![Tailwind](https://img.shields.io/badge/Tailwind-4.0-38BDF8?logo=tailwindcss)](https://tailwindcss.com)
 [![Cloudflare Pages](https://img.shields.io/badge/Cloudflare-Pages-F38020?logo=cloudflare)](https://pages.cloudflare.com)
-
-![Hero section preview — clean typography on cream background](https://raw.githubusercontent.com/Bau-sua/estcont/main/.github/preview.png)
 
 ## 🎯 Ideal para
 
@@ -44,7 +42,7 @@ Footer      → Email, teléfono, copyright
 
 | Capa      | Tecnología                    |
 | --------- | ----------------------------- |
-| Framework | Astro 5 (SSG, cero JS)        |
+| Framework | Astro 6 (SSG, cero JS)        |
 | Estilos   | Tailwind CSS 4                |
 | Forms     | Formspree o Cloudflare Worker |
 | Hosting   | Cloudflare Pages (free tier)  |
