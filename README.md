@@ -6,6 +6,8 @@ Landing page estática, minimalista y profesional para estudios contables. Const
 [![Tailwind](https://img.shields.io/badge/Tailwind-4.0-38BDF8?logo=tailwindcss)](https://tailwindcss.com)
 [![Cloudflare Pages](https://img.shields.io/badge/Cloudflare-Pages-F38020?logo=cloudflare)](https://pages.cloudflare.com)
 
+> **Status: COMPLETED** ✅ — June 2026
+
 ## 🎯 Ideal para
 
 - Estudios contables chicos y medianos
